@@ -1,0 +1,19 @@
+{
+  "name": "tab-server-host",
+  "version": "1.0.0",
+  "description": "A host for the tab-server Chrome extension.",
+  "main": "tab-server-host.js",
+  "bin": {
+    "tab-server-host": "./tab-server-host.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beau Gunderson <beau@beaugunderson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "chrome-native-messaging": "^0.2.0",
+    "express": "^4.12.3"
+  }
+}
