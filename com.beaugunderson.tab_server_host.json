@@ -4,6 +4,7 @@
   "path": "/usr/local/bin/tab-server-host",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://aaagminaffednpkhondngnmjpjlmgakf/"
+    "chrome-extension://aaagminaffednpkhondngnmjpjlmgakf/",
+    "chrome-extension://mnlnoaekdehpoignhoobllmiejnpgaii/"
   ]
 }

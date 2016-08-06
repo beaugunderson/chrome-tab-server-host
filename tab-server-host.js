@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/local/bin/node
 
 'use strict';
 
@@ -11,12 +11,12 @@ var nativeMessage = require('chrome-native-messaging');
 var waitingRequests = [];
 
 function log(data) {
-  fs.appendFileSync('/tmp/tab-server-host.log', data + '\n');
+  var date = new Date();
+
+  fs.appendFileSync('/tmp/tab-server-host.log', date + ' ' + data + '\n');
 }
 
 function messageHandler(msg, push, done) {
-  // log('message: ' + JSON.stringify(msg));
-
   if (msg.response === 'windows') {
     var res = waitingRequests.pop();
 

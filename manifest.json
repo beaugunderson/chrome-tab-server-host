@@ -1,9 +1,0 @@
-{
-  "name": "com.beaugunderson.tab-server-host",
-  "description": "Tab Server",
-  "path": "/usr/local/bin/tab-server-host",
-  "type": "stdio",
-  "allowed_origins": [
-    "chrome-extension://aaagminaffednpkhondngnmjpjlmgakf/"
-  ]
-}
